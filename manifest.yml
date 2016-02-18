@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: booksearchdemo
+  host: booksearchdemo
+  disk_quota: 1024M
+  services:
+  - Concept Insights-g5
+  - concept-insights-standard
